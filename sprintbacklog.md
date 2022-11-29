@@ -17,7 +17,7 @@
 |Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
-| Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
+| Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään | Jaakko  |   |   |   |
 | Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
 | Sovellus ei hyväksy virheellistä käyttäjätunnusta | Jaakko  |   |   |   |
 | Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
