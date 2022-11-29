@@ -12,7 +12,8 @@
 |Salasanan pitää olla yli 8 merkkiä   | Eero  |   |   |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  |   |   | 
 |   |   |   |   | 
-| **Käyttäjä voi lisätä viitteen** |   |   |   |
+| **Käyttäjä voi lisätä viitteen** | Sauli |   |   |
+| Käyttäjä voi katsella viitteitään | Sauli  |   |   |
 |Tieto tallentuu tietokantaan  |   |   |   |   |
 |Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
@@ -23,11 +24,11 @@
 | Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
 | Sovellus ei hyväksy virheelistä salasanaa | Jaakko  |   |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
-| Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena |   |   |   |   |
-| Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos |   |   |   |   |
-| Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia |   |   |   |   |
+| Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena | Jenni  |   |   |   |
+| Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  |   |   |   |
+| Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia | Jenni  |   |   |   |
 | **Käyttäjä voi käyttää sovellusta nettiselaimella**  |   |   |
-| Sovellus toimii fly.io:ssa  |   |   |   | 
+| Sovellus toimii fly.io:ssa  |Aapo   |   |   | 
 |   |   |   |   |
 |   |   |   |   |
 |**Sovelluksella on alustava graafinen käyttöliittymä**   |   |   |   
