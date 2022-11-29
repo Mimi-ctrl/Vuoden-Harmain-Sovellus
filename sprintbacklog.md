@@ -3,9 +3,27 @@
 
 |User story | Task | Task | Task | Task   |
 |---|---|---|---|---|
-| Käyttäjä voi luoda tunnuksen sovellukseen  |  Etusivulla linkki rekistöröitymissivulle  |  Rekistöröitymissivulta tiedot siirtyy tietokantaan  | Rekistöröitymissivulla on lomake tiedoille  | Salasana tallennetaan salattuna  | Käyttäjänimen täytyy olla uniikki | Salasanan pitää olla yli 8 merkkiä | Käyttäjätunnuksen pitää olla yli 3 merkkiä |
-| Käyttäjä voi lisätä viitteen  |   |   |   |   |
-| Käyttäjä voi kirjautua sovellukseen  |   |   |   |   |
-| Käyttäjä voi kirjautua ulos sovelluksesta |   |   |   |
-| Käyttäjä voi käyttää sovellusta nettiselaimella |  |   |  |
-| Sovelluksella on alustava graafinen käyttöliittymä |   |   |
+| **Käyttäjä voi luoda tunnuksen sovellukseen**  |  Etusivulla linkki rekistöröitymissivulle  |   |   |   |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
+| **Käyttäjä voi lisätä viitteen**  |   |   |   |   |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
+| **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |   |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
+| **Käyttäjä voi kirjautua ulos sovelluksesta** |   |   |   |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
+| **Käyttäjä voi käyttää sovellusta nettiselaimella** |  |   |  |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
+| **Sovelluksella on alustava graafinen käyttöliittymä** |   |   |
+| Tekijä  |   |   |   |   |
+|  Status |   |   |   |   |
+| Jäljellä oleva työmäärä |  |  |  |  |  |
