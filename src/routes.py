@@ -6,7 +6,7 @@ from flask import redirect, render_template, request
 
 @app.route("/")
 def index():
-    return "testi"
+    return render_template("frontpage.html")
 
 @app.route("/login", methods=["POST"])
 def login():
