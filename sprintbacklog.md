@@ -37,6 +37,5 @@
 |**Sovelluksen kehitysympäristö on kunnossa**   |   |   |  
 | Testaus otettu käyttöön  | Heli  | Kesken  | 5 min  |
 | Github actions otettu käyttöön  | Heli  |   | 15 min  |
-| Sprint burndown  | Heli  | Kesken  | 10 min  |
 
 <!-- |   |   |   |   |  < copypaste uusi rivi -->
