@@ -5,9 +5,9 @@
 |---|---|---|---|
 |  **Käyttäjä voi luoda tunnuksen sovellukseen**    |
 |Etusivulla linkki rekistöröitymissivulle   | Eero  |   |   |
-|Rekisteröitymissivulta tiedot siirtyy tietokantaan |   |   |   |
+|Rekisteröitymissivulta tiedot siirtyy tietokantaan |  Jaakko |   |   |
 | Rekisteröitymissivulla on lomake tiedoille  | Eero  |   |   |
-|Salasana tallennetaan salattuna   |   |   |   |
+|Salasana tallennetaan salattuna   | Jaakko  |   |   |
 |Käyttäjänimen täytyy olla uniikki   | Eero  |   |   | 
 |Salasanan pitää olla yli 8 merkkiä   | Eero  |   |   |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  |   |   | 
@@ -18,8 +18,8 @@
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
-| Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
-| Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
+| Sovellus herjaa jos käyttäjätunnus on virheellinen | Jaakko  |   |   |   |
+| Sovellus herjaa jos salasana on virheellinen | Jaakko  |   |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
 | Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena |   |   |   |   |
 | Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos |   |   |   |   |
