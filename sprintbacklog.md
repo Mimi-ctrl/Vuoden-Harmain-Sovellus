@@ -28,7 +28,7 @@
 | Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  |   |   |   |
 | Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia | Jenni  |   |   |   |
 | **Käyttäjä voi käyttää sovellusta nettiselaimella**  |   |   |
-| Sovellus toimii fly.io:ssa  |   |   |   | 
+| Sovellus toimii fly.io:ssa  |Aapo   |   |   | 
 |   |   |   |   |
 |   |   |   |   |
 |**Sovelluksella on alustava graafinen käyttöliittymä**   |   |   |   
