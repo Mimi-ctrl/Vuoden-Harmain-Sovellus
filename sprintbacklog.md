@@ -34,6 +34,8 @@
 |**Sovelluksella on alustava graafinen käyttöliittymä**   |   |   |   
 | Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella | Aapo |   |   |   
 |   |   |   |   |
-
+|**Sovelluksen kehitysympäristö on kunnossa**   |   |   |  
+| Testaus otettu käyttöön  |   |   |   |
+|   |   |   |   |
 
 <!-- |   |   |   |   |  < copypaste uusi rivi -->
