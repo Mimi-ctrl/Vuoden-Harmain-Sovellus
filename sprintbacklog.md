@@ -4,20 +4,20 @@
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä** |
 |---|---|---|---|
 |  **Käyttäjä voi luoda tunnuksen sovellukseen**    |
-|Etusivulla linkki rekistöröitymissivulle   | Eero  | Done  |  1 |
+|Etusivulla linkki rekistöröitymissivulle   | Eero  | Done  |  5 min |
 |Rekisteröitymissivulta tiedot siirtyy tietokantaan |  Jaakko |   |   |
-| Rekisteröitymissivulla on lomake tiedoille  | Eero  | Done  |  1 |
+| Rekisteröitymissivulla on lomake tiedoille  | Eero  | Done  |  5 min |
 |Salasana tallennetaan salattuna   | Jaakko  |   |   |
 |Käyttäjänimen täytyy olla uniikki   |   |   |   | 
-|Salasanan pitää olla yli 8 merkkiä   | Eero  | Done  | 1  |
-| Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  | Done  | 1 | 
+|Salasanan pitää olla yli 8 merkkiä   | Eero  | Done  | 5 min  |
+| Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  | Done  | 5 min | 
 |   |   |   |   | 
 | **Käyttäjä voi lisätä viitteen** | Sauli |   |   |
 | Käyttäjä voi katsella viitteitään | Sauli  |   |   |
 |Tieto tallentuu tietokantaan  | Sauli |   |   |   |
 |Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   | Sauli |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
-| Kirjautumislomake löytyy sovelluksen etusivulta | Eero  | Done  | 1  |   |
+| Kirjautumislomake löytyy sovelluksen etusivulta | Eero  | Done  | 5 min  |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
 | Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
 | Sovellus ei hyväksy virheellistä käyttäjätunnusta | Jaakko  |   |   |   |
