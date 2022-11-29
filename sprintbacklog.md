@@ -16,7 +16,7 @@
 |   |   |   |   |   |
 |   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
-| Kirjautumislomake löytyy sovelluksen etusivulta |   |   |   |   |
+| Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
 | Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
 | Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
