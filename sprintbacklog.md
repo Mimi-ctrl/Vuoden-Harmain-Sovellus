@@ -12,7 +12,8 @@
 |Salasanan pitää olla yli 8 merkkiä   | Eero  |   |   |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  |   |   | 
 |   |   |   |   | 
-| **Käyttäjä voi lisätä viitteen** |   |   |   |
+| **Käyttäjä voi lisätä viitteen** | Sauli |   |   |
+| Käyttäjä voi katsella viitteitään | Sauli  |   |   |
 |Tieto tallentuu tietokantaan  |   |   |   |   |
 |Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
