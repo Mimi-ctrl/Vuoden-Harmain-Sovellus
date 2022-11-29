@@ -12,7 +12,7 @@ def index():
 def login():
     username = request.form["username"]
     password = request.form["password"]
-    # jos ei oikeat tiedot palauttaa error viestin.
+    # jos ei oikeat tiedot palauttaa error viestin, aloittaa session userille.
     return redirect("/")
 
 
