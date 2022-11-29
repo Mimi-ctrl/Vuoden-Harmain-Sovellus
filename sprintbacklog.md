@@ -8,4 +8,4 @@
 | Käyttäjä voi kirjautua sovellukseen  |   |   |   |   |
 | Käyttäjä voi kirjautua ulos sovelluksesta |   |   |   |
 | Käyttäjä voi käyttää sovellusta nettiselaimella |  |   |  |
-| Sovelluksella on alustava graafinen käyttöliittymä |   |   |
+| Sovelluksella on alustava graafinen käyttöliittymä | Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella |   |
