@@ -4,13 +4,13 @@
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä** |
 |---|---|---|---|
 |  **Käyttäjä voi luoda tunnuksen sovellukseen**    |
-|Etusivulla linkki rekistöröitymissivulle   |   |   |   |
+|Etusivulla linkki rekistöröitymissivulle   | Eero  |   |   |
 |Rekisteröitymissivulta tiedot siirtyy tietokantaan |   |   |   |
-| Rekisteröitymissivulla on lomake tiedoille  |   |   |   |
+| Rekisteröitymissivulla on lomake tiedoille  | Eero  |   |   |
 |Salasana tallennetaan salattuna   |   |   |   |
-|Käyttäjänimen täytyy olla uniikki   |   |   |   | 
-|Salasanan pitää olla yli 8 merkkiä   |   |   |   |
-| Käyttäjätunnuksen pitää olla yli 3 merkkiä  |   |   |   | 
+|Käyttäjänimen täytyy olla uniikki   | Eero  |   |   | 
+|Salasanan pitää olla yli 8 merkkiä   | Eero  |   |   |
+| Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  |   |   | 
 |   |   |   |   | 
 | **Käyttäjä voi lisätä viitteen** |   |   |   |
 |   |   |   |   |   |
