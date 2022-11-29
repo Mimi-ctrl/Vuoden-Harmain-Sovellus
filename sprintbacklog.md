@@ -29,7 +29,7 @@
 |   |   |   |   |
 |   |   |   |   |
 |**Sovelluksella on alustava graafinen käyttöliittymä**   |   |   |   
-|   |   |   |   |   
+| Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella | Aapo |   |   |   
 |   |   |   |   |
 
 
