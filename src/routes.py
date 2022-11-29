@@ -26,9 +26,9 @@ def register():
         password2 = request.form["password2"]
         if password1 != password2:
             return render_template("errors.html", error="Salasanat eivät ole samat")
-        if len(password1) < 3:
+        if len(password1) < 8:
             return render_template("errors.html",
-                                   error="Salasanassa pitää olla vähintään 3 merkkiä")
+                                   error="Salasanassa pitää olla vähintään 8 merkkiä")
         if len(password1) > 30:
             return render_template("errors.html", error="Salasanassa saa olla enintään 30 merkkiä")
         # rekisteröinti, tiedot tietokantaan.
