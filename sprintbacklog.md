@@ -18,8 +18,10 @@
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
-| Sovellus herjaa jos käyttäjätunnus on virheellinen | Jaakko  |   |   |   |
-| Sovellus herjaa jos salasana on virheellinen | Jaakko  |   |   |   |
+| Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
+| Sovellus ei hyväksy virheellistä käyttäjätunnusta | Jaakko  |   |   |   |
+| Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
+| Sovellus ei hyväksy virheelistä salasanaa | Jaakko  |   |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
 | Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena |   |   |   |   |
 | Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos |   |   |   |   |
