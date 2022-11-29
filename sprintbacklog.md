@@ -16,12 +16,14 @@
 |   |   |   |   |   |
 |   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Kirjautumislomake löytyy sovelluksen etusivulta |   |   |   |   |
+| Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
+| Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
+| Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena |   |   |   |   |
+| Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos |   |   |   |   |
+| Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia |   |   |   |   |
 | **Käyttäjä voi käyttää sovellusta nettiselaimella**  |   |   |
 |   |   |   |   | 
 |   |   |   |   |
