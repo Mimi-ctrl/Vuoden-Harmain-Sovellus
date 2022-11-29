@@ -13,8 +13,8 @@
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  |   |   | 
 |   |   |   |   | 
 | **Käyttäjä voi lisätä viitteen** |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Tieto tallentuu tietokantaan  |   |   |   |   |
+|Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   |   |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
