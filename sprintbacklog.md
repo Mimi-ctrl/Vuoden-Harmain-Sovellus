@@ -14,8 +14,8 @@
 |   |   |   |   | 
 | **Käyttäjä voi lisätä viitteen** | Sauli |   |   |
 | Käyttäjä voi katsella viitteitään | Sauli  |   |   |
-|Tieto tallentuu tietokantaan  |   |   |   |   |
-|Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   |   |   |   |   |
+|Tieto tallentuu tietokantaan  | Sauli |   |   |   |
+|Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   | Sauli |   |   |   |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  |   |   |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
