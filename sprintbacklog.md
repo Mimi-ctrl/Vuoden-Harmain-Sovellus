@@ -7,8 +7,8 @@
 |Etusivulla linkki rekistöröitymissivulle   | Eero  | Done  |  5 min |
 |Rekisteröitymissivulta tiedot siirtyy tietokantaan |  Jaakko |   |   |
 | Rekisteröitymissivulla on lomake tiedoille  | Eero  | Done  |  5 min |
-|Salasana tallennetaan salattuna   | Jaakko  |   |   |
-|Käyttäjänimen täytyy olla uniikki   |   |   |   | 
+|Salasana tallennetaan salattuna   | Jaakko  | kesken  |   |
+|Käyttäjänimen täytyy olla uniikki   |  Jaakko | Kesken |   | 
 |Salasanan pitää olla yli 8 merkkiä   | Eero  | Done  | 5 min  |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  | Done  | 5 min | 
 |   |   |   |   | 
@@ -20,9 +20,9 @@
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  | Done  | 5 min  |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |   |
 | Sovellus herjaa jos käyttäjätunnus on virheellinen |   |   |   |   |
-| Sovellus ei hyväksy virheellistä käyttäjätunnusta | Jaakko  |   |   |   |
+| Sovellus ei hyväksy virheellistä käyttäjätunnusta | Jaakko  | kesken  |   |   |
 | Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
-| Sovellus ei hyväksy virheelistä salasanaa | Jaakko  |   |   |   |
+| Sovellus ei hyväksy virheelistä salasanaa | Jaakko  | kesken  |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
 | Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena | Jenni  |   |   |   |
 | Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  |   |   |   |
