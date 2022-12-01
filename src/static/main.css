@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    max-width: 45em;
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -15,4 +14,10 @@ hr {
     background-color: black;
     height: 2px;
     border: 0;
+}
+
+.register {
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
 }
