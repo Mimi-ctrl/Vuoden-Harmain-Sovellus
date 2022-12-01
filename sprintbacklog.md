@@ -24,9 +24,9 @@
 | Sovellus herjaa jos salasana on virheellinen |   |   |   |   |
 | Sovellus ei hyväksy virheelistä salasanaa | Jaakko  | kesken  |   |   |
 | **Käyttäjä voi kirjautua ulos sovelluksesta**  |   |   |   |
-| Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena | Jenni  |   |   |   |
-| Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  |   |   |   |
-| Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia | Jenni  |   |   |   |
+| Uloskirjautumisnappi löytyy sovelluksen kaikilta sivuilta käyttäjän ollessa kirjautuneena | Jenni  | Aloitettu  |   |   |
+| Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  | Aloitettu  |   |   |
+| Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia | Jenni  |Aloitettu   |   |   |
 | **Käyttäjä voi käyttää sovellusta nettiselaimella**  |   |   |
 | Sovellus toimii fly.io:ssa  |Aapo   |   |   | 
 |   |   |   |   |
