@@ -12,7 +12,7 @@
 |Salasanan pitää olla yli 8 merkkiä   | Eero  | Done  | 5 min  |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  | Done  | 5 min | 
 |   |   |   |   | 
-| **Käyttäjä voi lisätä viitteen** | Sauli |   |   |
+| **Käyttäjä voi lisätä viitteen** | Sauli | Aloitettu ↓ |   |
 | Käyttäjä voi katsella viitteitään | Sauli  |   |   |
 |Tieto tallentuu tietokantaan  | Sauli |   |   |   |
 |Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   | Sauli |   |   |   |
