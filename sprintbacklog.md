@@ -28,11 +28,11 @@
 | Uloskirjautumisnappia painamalla käyttäjä kirjautuu ulos | Jenni  | Aloitettu  |   |   |
 | Uloskirjautumisen jälkeen ei pääse takaisin käyttäjän tietoihin painamalla sovelluksen "takaisin" nappia | Jenni  |Aloitettu   |   |   |
 | **Käyttäjä voi käyttää sovellusta nettiselaimella**  |   |   |
-| Sovellus toimii fly.io:ssa  |Aapo   | Kesken  |   | 
+| Sovellus toimii fly.io:ssa  |Aapo   | Kesken  | 5h  | 
 |   |   |   |   |
 |   |   |   |   |
 |**Sovelluksella on alustava graafinen käyttöliittymä**   |   |   |   
-| Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella | Aapo | Kesken  |   |   
+| Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella | Aapo | Kesken  | 1h  |   
 |   |   |   |   |
 |**Sovelluksen kehitysympäristö on kunnossa**   |   |   |  
 | Testaus otettu käyttöön  | Heli  | Kesken  | 5 min  |
