@@ -35,7 +35,7 @@
 | Sovelluksella on graafinen käyttöliittymä jonka voi avata nettiselaimella | Aapo | Kesken  | 1h  |   
 |   |   |   |   |
 |**Sovelluksen kehitysympäristö on kunnossa**   |   |   |  
-| Testaus otettu käyttöön  | Heli  | Kesken  | 5 min  |
-| Github actions otettu käyttöön  | Heli  |   | 15 min  |
+| Testaus otettu käyttöön  | Heli  | Valmis |  |
+| Github actions otettu käyttöön  | Heli  | Valmis  |   |
 
 <!-- |   |   |   |   |  < copypaste uusi rivi -->
