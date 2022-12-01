@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="fi">
 <head>
     <link rel="stylesheet" href="/static/main.css">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -8,6 +9,12 @@
 <body>
     <div class="header-text">
     <h1>Otsikko</h1>
-</div>
+    </div>
+    <a class="btn btn-secondary px-2 mt-3" href="/logout" role="button">Kirjaudu ulos</a>
+    {% block content %}{% endblock %}
+
+    <!--{% if session.user_id %}-->
+    
+    <!--{% endif %}-->
 </body>
-{% block content %}{% endblock %}
+</html>
