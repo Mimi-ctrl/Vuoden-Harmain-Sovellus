@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Vuoden-Harmain-Team"]
 readme = "README.md"
-packages = [{include = "vuoden_harmain_sovellus"}]
+#packages = [{include = "vuoden_harmain_sovellus"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -17,6 +17,8 @@ python-dotenv = "^0.21.0"
 
 [tool.poetry.group.dev.dependencies]
 robotframework = "^6.0.1"
+robotframework-seleniumlibrary = "^6.0.0"
+requests = "^2.28.1"
 coverage = "^6.5.0"
 pylint = "^2.15.7"
 pytest = "^7.2.0"
