@@ -1,8 +1,10 @@
 from app import app
 
 from flask import redirect, render_template, request
+from os import getenv
+import users
 
-
+app.secret_key = getenv("SECRET_KEY")
 
 @app.route("/")
 def index():
@@ -12,7 +14,8 @@ def index():
 def login():
     username = request.form["username"]
     password = request.form["password"]
-    # jos ei oikeat tiedot palauttaa error viestin, aloittaa session userille.
+    if not users.login(username, password):
+        return render_template("errors.html", error="Väärä käyttäjätunnus tai salasana")
     return redirect("/")
 
 
@@ -31,5 +34,10 @@ def register():
                                    error="Salasanassa pitää olla vähintään 8 merkkiä")
         if len(password1) > 30:
             return render_template("errors.html", error="Salasanassa saa olla enintään 30 merkkiä")
-        # rekisteröinti, tiedot tietokantaan.
+        users.new_user(username, password1)
         return redirect("/")
+
+@app.route("/logout")
+def logout():
+    users.logout()
+    return redirect("/")

@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
-{% if session.username %}
-<p>Olet kirjautunut nimellä {{ session.username }}</p>
+{% if session.user_id %}
+<p>Olet kirjautunut nimellä {{ session.user_name }}</p>
 <a href="/logout">Kirjaudu ulos</a>
 {% else %}
 <form action="/login" method="POST">

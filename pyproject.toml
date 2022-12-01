@@ -10,6 +10,9 @@ packages = [{include = "vuoden_harmain_sovellus"}]
 python = "^3.8"
 flask = "^2.2.2"
 werkzeug = "^2.2.2"
+flask-sqlalchemy = "^3.0.2"
+psycopg2 = "^2.9.5"
+python-dotenv = "^0.21.0"
 
 
 [tool.poetry.group.dev.dependencies]
