@@ -8,3 +8,5 @@
 - Toiminnallisuudelle on tehty yksikkötestit (rivikattavuus 80 %), jotka menevät läpi
 - Github Actions toimii
 - Pushattu fly.io:hon
+
+![GHA workflow badge](https://github.com/AapoTuulentie/Vuoden-Harmain-Sovellus/workflows/CI/badge.svg)
