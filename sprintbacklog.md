@@ -1,4 +1,9 @@
 ## Sprint Backlog
+#### Sprint 2
+
+| **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
+|---|---|---|---|
+
 #### Sprint 1
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
