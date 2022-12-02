@@ -5,7 +5,7 @@
 |---|---|---|---|
 |  **Käyttäjä voi luoda tunnuksen sovellukseen**    |
 |Etusivulla linkki rekistöröitymissivulle   | Eero  | Valmis  |  5 min |
-|Rekisteröitymissivulta tiedot siirtyy tietokantaan |  Jaakko | Valmis  | 15min |
+|Rekisteröitymissivulta tiedot siirtyy tietokantaan |  Jaakko | Valmis  |  |
 | Rekisteröitymissivulla on lomake tiedoille  | Eero  | Valmis  |   |
 |Salasana tallennetaan salattuna   | Jaakko  | Testaamatta  | 15min |
 |Käyttäjänimen täytyy olla uniikki   |  Jaakko | Testaamatta | 15min  | 
