@@ -21,4 +21,30 @@
     </div>
 </div>
 {% endif %}
+<br>
+{% if session.user_id %}
+<form action="/add_citation" method="POST">
+    <p style="font-size:20px">Uusi viite</p>
+
+    <label>Kirja: </label>
+    <input type="text" name="title">
+
+    <label>Kirjoittaja: </label>
+    <input type="text" name="author">
+
+    <label>Vuosi: </label>
+    <input type="number" name="year">
+    <input type="submit" value="Lisää viite">
+</form>
+<br>
+<p style="font-size:26px">Viitteesi</p>
+<div>
+    {% for citation in citations %}
+
+    {{citation[1]}}, {{citation[2]}}, {{citation[4]}}
+    <hr>
+    {% endfor %}
+</div>
+{% endif %}
+>>>>>>> 13d7eccc476178895c451fd9a25d24d1cc1a88fb
 {% endblock %}
