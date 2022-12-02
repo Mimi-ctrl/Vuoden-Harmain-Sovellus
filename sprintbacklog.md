@@ -36,6 +36,6 @@
 |   |   |   |   |
 |**Sovelluksen kehitysympäristö on kunnossa**   |   |   |  
 | Testaus otettu käyttöön  | Heli  | Valmis |  |
-| Github actions otettu käyttöön  | Heli  | Valmis  |   |
+| Github actions otettu käyttöön  | Heli  | Kesken  | 10 min  |
 
 <!-- |   |   |   |   |  < copypaste uusi rivi -->
