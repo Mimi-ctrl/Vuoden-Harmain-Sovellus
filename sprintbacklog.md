@@ -8,8 +8,8 @@
 |  **Käyttäjä voi luoda viitteen haluamastaan lähdetyypistä (artikkeli jne.)**    |
 |  **Käyttäjä voi muokata tallentamiaan viitteitä**    |
 |  **Käyttäjä voi poistaa viitteen**    |
-|  **Käyttäjä voi tarkastella tallentamiaan viitteitä**    |
-|Tiedot näkyvät järkevässä muodossa   |   |   |  |
+|  **Testitietokanta kuntoon**    |
+|   |   |   |  |
 #### Sprint 1
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
