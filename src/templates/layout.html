@@ -10,8 +10,10 @@
     <div class="header-text">
     <h1>Otsikko</h1>
     </div>
+    
+    {% block content %}
     <a class="btn btn-secondary px-2 mt-3" href="/logout" role="button">Kirjaudu ulos</a>
-    {% block content %}{% endblock %}
+    {% endblock %}
 
     <!--{% if session.user_id %}-->
     
