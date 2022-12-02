@@ -33,6 +33,14 @@ Can not Register With Password Mismatch
     Submit Credentials
     Register Should Fail With Message  Salasanat eivät ole samat
 
+Logging Out Redirects To Main Page
+    Set Username  nimi
+    Set Password  salasana123
+    Set Password Confirmation  salasana123
+    Submit Credentials
+    Click Button  Logout
+    Main Page Should Be Open
+
 *** Keywords ***
 Set Username
     [Arguments]  ${username}
