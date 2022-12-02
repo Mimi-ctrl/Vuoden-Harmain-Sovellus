@@ -3,7 +3,8 @@
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
 |---|---|---|---|
-
+|  **Käyttäjä voi luoda viitteistään BibTex-tiedoston**    |
+|Tiedosto yhdestä viitteestä   |   |   |  |
 #### Sprint 1
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
