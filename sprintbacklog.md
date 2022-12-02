@@ -12,10 +12,10 @@
 |Salasanan pitää olla yli 8 merkkiä   | Eero  | Testauksessa  | 5 min  |
 | Käyttäjätunnuksen pitää olla yli 3 merkkiä  | Eero  | Testaukessa  | 5 min | 
 |   |   |   |   | 
-| **Käyttäjä voi lisätä viitteen** | Sauli | Testaus puuttuu ↓ |   |
-| Käyttäjä voi katsella viitteitään | Sauli  |   |   |
-|Tieto tallentuu tietokantaan  | Sauli |   |   |   |
-|Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   | Sauli |   |   |   |
+| **Käyttäjä voi lisätä viitteen** | Sauli | Testaus puuttuu ↓ | 10 min |
+| Käyttäjä voi katsella viitteitään | Sauli  |   | 5 min |
+|Tieto tallentuu tietokantaan  | Sauli |   |   | 10 min |
+|Käyttäjä voi lisätä kirjan, jossa kirjoittaja ja vuosi   | Sauli |   |   | 10 min |
 | **Käyttäjä voi kirjautua sovellukseen**  |   |   |   |
 | Kirjautumislomake löytyy sovelluksen etusivulta | Eero  | Valmis  | 5 min  |   |
 | Olemassaolevan tunnuksen ja siihen kuuluvan salasanan syöttämällä pääsee kirjautumaan sisään |   |   |   |
