@@ -12,6 +12,27 @@ Register With Valid Username And Password
     Submit Credentials
     Register Should Succeed
 
+Can not Register With Too Short Username
+    Set Username  ni
+    Set Password  salasana123
+    Set Password Confirmation  salasana123
+    Submit Credentials
+    Register Should Fail
+
+Can not Register With Too Short Password
+    Set Username  nimi
+    Set Password  sa
+    Set Password Confirmation  sa
+    Submit Credentials
+    Register Should Fail
+
+Can not Register With Password Mismatch
+    Set Username  nimi
+    Set Password  salasana123
+    Set Password Confirmation  salaminaama123
+    Submit Credentials
+    Register Should Fail With Message  Salasanat eivät ole samat
+
 *** Keywords ***
 Set Username
     [Arguments]  ${username}
@@ -33,3 +54,11 @@ Go To Register Page First
 
 Register Should Succeed
     Main Page Should Be Open
+
+Register Should Fail
+    Register Page Should Be Open
+
+Register Should Fail With Message
+    [Arguments]  ${message}
+    Page Should Contain  ${Message}
+
