@@ -10,6 +10,8 @@
 |  **Käyttäjä voi poistaa viitteen**    |
 |  **Testitietokanta kuntoon**    |
 |   |   |   |  |
+|  **Fly.io toimimaan (ehkä)**    |
+|   |   |   |  |
 #### Sprint 1
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
