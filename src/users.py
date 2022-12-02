@@ -34,3 +34,4 @@ def new_user(name, password):
     except:
         return False
     return login(name, password)
+

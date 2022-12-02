@@ -25,6 +25,9 @@ Register Page Should Be Open
 Main Page Should Be Open
     Title Should Be  Otsikko
 
+Go To Main Page
+    Go To  ${HOME URL}
+
 Go To Login Page
     Go To  ${LOGIN URL}
 

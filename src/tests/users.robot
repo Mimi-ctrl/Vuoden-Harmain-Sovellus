@@ -2,10 +2,13 @@
 Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
-Test Setup  Go To Register Page First
+Test Setup  Go To Main Page First
+
+
 
 *** Test Cases ***
 Register With Valid Username And Password
+    Go To Register Page
     Set Username  nimi
     Set Password  salasana123
     Set Password Confirmation  salasana123
@@ -13,6 +16,7 @@ Register With Valid Username And Password
     Register Should Succeed
 
 Can not Register With Too Short Username
+    Go To Register Page
     Set Username  ni
     Set Password  salasana123
     Set Password Confirmation  salasana123
@@ -20,6 +24,7 @@ Can not Register With Too Short Username
     Register Should Fail
 
 Can not Register With Too Short Password
+    Go To Register Page
     Set Username  nimi
     Set Password  sa
     Set Password Confirmation  sa
@@ -27,11 +32,32 @@ Can not Register With Too Short Password
     Register Should Fail
 
 Can not Register With Password Mismatch
+    Go To Register Page
     Set Username  nimi
     Set Password  salasana123
     Set Password Confirmation  salaminaama123
     Submit Credentials
     Register Should Fail With Message  Salasanat eivät ole samat
+
+Registered User Should Be Able To Log In
+    Go To Register Page
+    Set Username  nimi1  
+    Set Password  salasana123
+    Set Password Confirmation  salasana123
+    Submit Credentials
+    Log Out
+    Set Username  nimi1
+    Set Password Main Page  salasana123
+    Log In
+    Log In Should Succeed 
+    Log Out
+
+Log In Should Not Work With Incorrect Credentials
+
+    Set Username  hakkeripahis
+    Set Password Main Page  salasana123
+    Log In
+    Log In Should Fail With Message  Väärä käyttäjätunnus tai salasana 
 
 *** Keywords ***
 Set Username
@@ -42,6 +68,10 @@ Set Password
     [Arguments]  ${password}
     Input Password  password1  ${password}
 
+Set Password Main Page
+    [Arguments]  ${password}
+    Input Password  password  ${password}
+
 Set Password Confirmation
     [Arguments]  ${password}
     Input Password  password2  ${password}
@@ -49,8 +79,11 @@ Set Password Confirmation
 Submit Credentials
     Click Button  Luo tunnus
 
-Go To Register Page First
-    Go To Register Page
+Go To Main Page First
+    Go To Main Page
+
+Go To Register Page
+    Click Link  Luo uusi tunnus
 
 Register Should Succeed
     Main Page Should Be Open
@@ -62,3 +95,15 @@ Register Should Fail With Message
     [Arguments]  ${message}
     Page Should Contain  ${Message}
 
+Login Should Fail With Message
+    [Arguments]  ${message}
+    Page Should Contain  ${Message}
+
+Log Out
+    Click Link  Kirjaudu ulos
+
+Log In
+    Click Button  Kirjaudu
+
+Log In Should Succeed
+    Main Page Should Be Open
