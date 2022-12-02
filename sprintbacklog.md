@@ -12,7 +12,7 @@
 |  **Testitietokanta kuntoon**    |
 |   |   |   |  |
 |  **Fly.io toimimaan (ehkä)**    |
-|   |   |   |  |
+| **Sovelluksella on alustava graafinen käyttöliittymä**  |   |   |  |
 #### Sprint 1
 
 | **User story**  | **Tekijä**  | **Status**  |  **Arvioitu työmäärä jäljellä** |
