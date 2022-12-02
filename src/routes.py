@@ -1,14 +1,15 @@
 from app import app
 
-from flask import redirect, render_template, request
+from flask import redirect, render_template, request, session
 from os import getenv
 import users
+import citations
 
 app.secret_key = getenv("SECRET_KEY")
 
 @app.route("/")
 def index():
-    return render_template("frontpage.html")
+    return render_template("frontpage.html", citations=citations.get_citations())
 
 @app.route("/login", methods=["POST"])
 def login():
@@ -41,3 +42,14 @@ def register():
 def logout():
     users.logout()
     return redirect("/")
+
+@app.route("/add_citation", methods=["POST"])
+def add_citation():
+    if not session:
+        return render_template("errors.html", error="Et ole kirjautunut")
+    title = request.form["title"]
+    author = request.form["author"]
+    year = request.form["year"]
+    if not citations.add_citation(author, title, year):
+        return render_template("errors.html", error="Ei onnistunut")
+    return redirect(request.referrer)
