@@ -59,6 +59,14 @@ Log In Should Not Work With Incorrect Credentials
     Log In
     Log In Should Fail With Message  Väärä käyttäjätunnus tai salasana 
 
+Logging Out Redirects To Main Page
+    Set Username  nimi
+    Set Password  salasana123
+    Set Password Confirmation  salasana123
+    Submit Credentials
+    Click Button  Logout
+    Main Page Should Be Open
+
 *** Keywords ***
 Set Username
     [Arguments]  ${username}
