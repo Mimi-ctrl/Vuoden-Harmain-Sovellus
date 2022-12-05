@@ -19,8 +19,4 @@ class AppLibrary:
         requests.post(f"{self._base_url}/register", data=data)
         
     def reset_database(self):
-        print("RESET KUTSUTTU")
-        print("********")
-        print("RESET KUTSUTTU")
-        print("********")
         requests.post(f"{self._base_url}/reset_database")
