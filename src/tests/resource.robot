@@ -11,10 +11,11 @@ ${LOGIN URL}  http://${SERVER}/login
 ${REGISTER URL}  http://${SERVER}/register
 
 *** Keywords ***
-Open And Configure Browser
+Open Browser And Reset Database
     Open Browser  browser=${BROWSER}
     Maximize Browser Window
     Set Selenium Speed  ${DELAY}
+    Reset Database
 
 Login Page Should Be Open
     Title Should Be  Login

@@ -1,9 +1,8 @@
 *** Settings ***
 Resource  resource.robot
-Suite Setup  Open And Configure Browser
+Suite Setup  Open Browser And Reset Database
 Suite Teardown  Close Browser
 Test Setup  Go To Main Page First
-
 
 
 *** Test Cases ***
@@ -14,6 +13,7 @@ Register With Valid Username And Password
     Set Password Confirmation  salasana123
     Submit Credentials
     Register Should Succeed
+    Log Out
 
 Can not Register With Too Short Username
     Go To Register Page
@@ -53,7 +53,6 @@ Registered User Should Be Able To Log In
     Log Out
 
 Log In Should Not Work With Incorrect Credentials
-
     Set Username  hakkeripahis
     Set Password Main Page  salasana123
     Log In
@@ -61,10 +60,9 @@ Log In Should Not Work With Incorrect Credentials
 
 Logging Out Redirects To Main Page
     Set Username  nimi
-    Set Password  salasana123
-    Set Password Confirmation  salasana123
-    Submit Credentials
-    Click Button  Logout
+    Set Password Main Page  salasana123
+    Log In
+    Log Out
     Main Page Should Be Open
 
 *** Keywords ***
