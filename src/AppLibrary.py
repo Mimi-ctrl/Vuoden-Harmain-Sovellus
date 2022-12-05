@@ -1,6 +1,5 @@
 import requests
 
-
 class AppLibrary:
     def __init__(self):
         self._base_url = "http://localhost:5000"
@@ -19,3 +18,9 @@ class AppLibrary:
 
         requests.post(f"{self._base_url}/register", data=data)
         
+    def reset_database(self):
+        print("RESET KUTSUTTU")
+        print("********")
+        print("RESET KUTSUTTU")
+        print("********")
+        requests.post(f"{self._base_url}/reset_database")

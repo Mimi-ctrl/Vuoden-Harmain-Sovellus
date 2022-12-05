@@ -4,6 +4,7 @@ from flask import redirect, render_template, request, session
 from os import getenv
 import users
 import citations
+import actions
 
 app.secret_key = getenv("SECRET_KEY")
 
@@ -42,6 +43,10 @@ def register():
 def logout():
     users.logout()
     return redirect("/")
+
+@app.route("/reset_database", methods=["POST"])
+def reset_database():
+    actions.reset_database()
 
 @app.route("/add_citation", methods=["POST"])
 def add_citation():
