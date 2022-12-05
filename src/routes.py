@@ -47,6 +47,7 @@ def logout():
 @app.route("/reset_database", methods=["POST"])
 def reset_database():
     actions.reset_database()
+    return redirect("/")
 
 @app.route("/add_citation", methods=["POST"])
 def add_citation():

@@ -7,7 +7,6 @@ def reset_database():
         from pathlib import Path
         try:
             sql = Path('../schema.sql').read_text()
-            sql2 = "DELETE FROM users"
             db.session.execute(sql)
             db.session.commit()
             return True
