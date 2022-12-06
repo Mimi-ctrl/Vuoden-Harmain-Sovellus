@@ -40,8 +40,12 @@
 <p style="font-size:26px">Viitteesi</p>
 <div>
     {% for citation in citations %}
-
-    {{citation[1]}}, {{citation[2]}}, {{citation[4]}}
+    <form action="/delete_citation" method="POST">
+        {{citation[1]}}, {{citation[2]}}, {{citation[4]}}
+        <input type="hidden" name="id" value="{{ citation[0] }}">
+        <input type="submit" value="Poista">
+        
+    </form>
     <hr>
     {% endfor %}
 </div>

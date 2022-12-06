@@ -23,3 +23,14 @@ def get_citations():
         return result.fetchall()
     except:
         return False
+
+def delete_citation(id):
+    if not session:
+        return False
+    try:
+        sql = "DELETE FROM entries WHERE id=:id"
+        db.session.execute(sql, {"id":id})
+        db.session.commit()
+        return True
+    except:
+        return False

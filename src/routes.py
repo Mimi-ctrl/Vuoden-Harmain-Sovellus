@@ -59,3 +59,11 @@ def add_citation():
     if not citations.add_citation(author, title, year):
         return render_template("errors.html", error="Ei onnistunut")
     return redirect(request.referrer)
+
+@app.route("/delete_citation", methods=["POST"])
+def delete_citation():
+    if not session:
+        return render_template("errors.html", error="Et ole kirjautunut")
+    id = request.form["id"]
+    citations.delete_citation(id)
+    return redirect("/")
