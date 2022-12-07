@@ -13,8 +13,7 @@
 | Viiteen default arvoja voi muokkaa | Eero | Työn alla | 15 min |
 | Uudet arvot tallentuvat tietokantaan | Eero | Työn alla | 20 min |
 |  **Käyttäjä voi poistaa viitteen**    |
-|  **Testitietokanta kuntoon**    |
-|   |   |   |  |
+|  **Testitietokanta kuntoon**    | Sauli  | Valmis jollain tavalla|  |
 |  **Fly.io toimimaan (ehkä)**    |
 | **Sovelluksella on alustava graafinen käyttöliittymä**  |   |   |  |
 #### Sprint 1
