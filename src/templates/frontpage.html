@@ -41,8 +41,8 @@
 <div>
     {% for citation in citations %}
     <form action="/delete_citation" method="POST">
-        {{citation[1]}}, {{citation[2]}}, {{citation[4]}}
-        <input type="hidden" name="id" value="{{ citation[0] }}">
+        {{citation[0]}}
+        <input type="hidden" name="id" value="{{ citation[1] }}">
         <input type="submit" value="Poista">
         
     </form>
