@@ -7,7 +7,11 @@
 |Tiedosto yhdestä viitteestä   |   |   |  |
 |Tiedoston voi ladata tai kopioida  |   |   |  |
 |  **Käyttäjä voi luoda viitteen haluamastaan lähdetyypistä (artikkeli jne.)**    |
-|  **Käyttäjä voi muokata tallentamiaan viitteitä**    |
+|  **Käyttäjä voi muokata tallentamiaan viitteitä**  
+|Viitteen vieressä nappi, joka vie muutos sivulle | Eero | Työn alla | 15 min |
+| Muutos sivulla lomake, joissa default arvoina viitteen nykyiset tiedot | Eero | Työn alla | 30 min |
+| Viiteen default arvoja voi muokkaa | Eero | Työn alla | 15 min |
+| Uudet arvot tallentuvat tietokantaan | Eero | Työn alla | 20 min |
 |  **Käyttäjä voi poistaa viitteen**    |
 |  **Testitietokanta kuntoon**    |
 |   |   |   |  |
