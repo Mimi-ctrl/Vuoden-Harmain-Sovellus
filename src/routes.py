@@ -10,8 +10,8 @@ app.secret_key = getenv("SECRET_KEY")
 
 @app.route("/")
 def index():
-    citation_list = citations.form_citations_list()
-    return render_template("frontpage.html", citations=citation_list)
+    citations_list = citations.form_citations_list()
+    return render_template("frontpage.html", citations=citations_list)
 
 @app.route("/login", methods=["POST"])
 def login():
@@ -69,8 +69,23 @@ def delete_citation():
     citations.delete_citation(id)
     return redirect("/")
 
-@app.route("/modify_citation", methods=["GET", "POST"])
-def modify_citation():
+@app.route("/modify_citation/<int:id>", methods=["GET", "POST"])
+def modify_citation(id):
     if not session:
         return render_template("errors.html", error="Et ole kirjautunut")
-    id = request.form["id"]
+    if request.method == "GET":
+        return render_template("modify_citation.html", citation=citations.get_one_citation(id))
+    if request.method == "POST":
+        author = request.form["author"]
+        title = request.form["title"]
+        publisher = request.form["publisher"]
+        year = request.form["year"]
+        doi = request.form["doi"]
+        isbn = request.form["isbn"]
+        editor = request.form["editor"]
+        pages = request.form["pages"]
+        shorthand = request.form["shorthand"]
+        citations.modify_citation(id, author, title, publisher, year, doi, isbn, editor, pages, shorthand)
+    return redirect("/")
+
+    
