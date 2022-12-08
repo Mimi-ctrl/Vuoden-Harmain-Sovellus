@@ -42,7 +42,7 @@ def form_citations_list():
     citations = get_citations()
     for citation in citations:
         (citation_id, author, title, publisher,
-         year, doi, isbin, editor, pages, shorthand, section) = citation
+         year, doi, isbin, editor, pages, shorthand) = citation
         section = [author, title, publisher, year, doi, isbin, editor, pages, shorthand]
         citation_list.append((add_section_to_citation(section), citation_id))
     return citation_list
